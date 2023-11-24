@@ -1,10 +1,28 @@
-body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/* base */
 
-h1 {
-    color: purple;
-}
+@import "./base/base";
+@import "./base/fonts";
+@import "./base/helpers";
+@import "./base/reset";
+@import "./base/typography";
+
+/* layout */
+
+@import "./layout/header";
+@import "./layout/footer";
+
+/* pages */
+
+@import "./pages/home";
+
+
+/* components */
+
+@import "./components/button";
+@import "./components/loader";
+
+/* abstracts */
+
+@import "./abstracts/functions";
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
