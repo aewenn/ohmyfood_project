@@ -1,0 +1,17 @@
+/* Header */
+
+header {
+    width: 100%;
+    height: 64px;
+    display: flex;
+
+    .logo {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        padding-top: 14px;
+        padding-bottom: 13px;
+    }
+}
