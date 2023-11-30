@@ -40,6 +40,12 @@ header .logo {
   padding-bottom: 13px;
 }
 
+/* Header - version responsive */
+@media screen and (min-width: 1024px) {
+  header {
+    height: 96px;
+  }
+}
 /* Footer */
 .footer {
   width: 100%;
@@ -72,12 +78,19 @@ header .logo {
   color: #FFFFFF;
 }
 
+/* Footer - version responsive */
+@media screen and (min-width: 1024px) {
+  .footer {
+    flex-direction: row;
+  }
+}
 /* pages */
 /* Page d'accueil */
 /* Section Location */
 .location {
   width: 100%;
   background-color: #EAEAEA;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,7 +104,7 @@ header .logo {
 
 .location input {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   padding: 10px;
   background-color: #EAEAEA;
@@ -130,6 +143,16 @@ header .logo {
   font-weight: 300;
 }
 
+/* Section Discover - version responsive */
+@media screen and (min-width: 1024px) {
+  .discover {
+    padding-bottom: 30px;
+  }
+  .discover h1 {
+    font-size: 40px;
+    padding-bottom: 25px;
+  }
+}
 .button-purple {
   display: block;
   width: 218px;
@@ -148,7 +171,7 @@ header .logo {
 
 /* Section Functionning */
 .functionning {
-  padding-top: 48px;
+  padding-top: 50px;
 }
 
 .functionning-all {
@@ -203,6 +226,17 @@ header .logo {
   color: #ffffff;
 }
 
+/* Section Functionning - version responsive */
+@media screen and (min-width: 1024px) {
+  .section-title {
+    padding-left: 0;
+  }
+  .functionning-all {
+    flex-direction: row;
+    margin-left: 9%;
+    margin-right: 9%;
+  }
+}
 /* Section Restaurants */
 .restaurants {
   margin-top: 68px;
@@ -275,6 +309,24 @@ header .logo {
   right: 22px;
 }
 
+/* Section Restaurants - version responsive */
+@media screen and (min-width: 1024px) {
+  .restaurants {
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+  .restaurants-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  .cards {
+    width: 490px;
+  }
+}
 /* components */
 /* abstracts */
 

@@ -30,3 +30,12 @@
     width: 11px;
     color:#FFFFFF;
 }
+
+/* Footer - version responsive */
+
+@media screen and (min-width: 1024px) {
+
+    .footer {
+        flex-direction: row;
+    }
+}

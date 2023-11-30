@@ -5,6 +5,7 @@
 .location {
   width: 100%;
   background-color: #EAEAEA;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +19,7 @@
 
 .location input {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   padding: 10px;
   background-color: #EAEAEA;
@@ -58,6 +59,20 @@
   font-weight: 300;
 }
 
+/* Section Discover - version responsive */
+
+@media screen and (min-width: 1024px) {
+
+  .discover {
+    padding-bottom: 30px;
+  }
+
+  .discover h1 {
+    font-size: 40px;
+    padding-bottom: 25px;
+  }
+}
+
 .button-purple {
   display: block;
   width: 218px;
@@ -77,7 +92,7 @@
 /* Section Functionning */
 
 .functionning {
-  padding-top: 48px;
+  padding-top: 50px;
 }
 
 .functionning-all {
@@ -96,7 +111,7 @@
 }
 
 .fa-store {
-  color:#9356DC;
+  color: #9356DC;
 }
 
 .button-functionning {
@@ -130,6 +145,21 @@
   font-weight: 500;
   font-size: 14px;
   color: #ffffff;
+}
+
+/* Section Functionning - version responsive */
+
+@media screen and (min-width: 1024px) {
+
+  .section-title {
+    padding-left: 0;
+  }
+
+  .functionning-all {
+    flex-direction: row;
+    margin-left: 9%;
+    margin-right: 9%;
+  }
 }
 
 /* Section Restaurants */
@@ -203,4 +233,28 @@
   position: absolute;
   top: 190px;
   right: 22px;
+}
+
+/* Section Restaurants - version responsive */
+
+@media screen and (min-width: 1024px) {
+
+  .restaurants {
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+
+  .restaurants-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .cards {
+    width: 490px;
+  }
+
 }

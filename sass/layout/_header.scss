@@ -15,3 +15,11 @@ header {
         padding-bottom: 13px;
     }
 }
+
+/* Header - version responsive */
+
+@media screen and (min-width: 1024px) {
+    header {
+        height: 96px;
+    }
+}
