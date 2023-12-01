@@ -37,13 +37,14 @@
 
     .footer {
         flex-direction: row;
-        height: 114px;
-        gap:7px;
+        justify-content: flex-end;
+        gap: 7px;
     }
 
     .footer h3 {
-        position: absolute;
-        left: 87%;
+        order: 5;
+        margin-top: 35px;
+        margin-left: 100px;
     }
 
     .footer a {
