@@ -1,0 +1,23 @@
+/* Bouton "Explorer les restaurants" */
+
+.btn-purple {
+    display: block;
+    width: 218px;
+    height: 50px;
+    border-radius: 25px;
+    background: linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
+    border: none;
+    box-shadow: 0px 0px 10px 0px #b4b4b4;
+    color: #FFFFFF;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+    font-style: normal;
+  }
+  
+  .btn-purple:hover {
+    opacity: 0.8;
+    transition: 500ms;
+  }
+  

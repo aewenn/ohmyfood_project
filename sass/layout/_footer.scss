@@ -28,7 +28,7 @@
     font-size: 13px;
     line-height: 25px;
     width: 11px;
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
 
 /* Footer - version responsive */
@@ -37,5 +37,20 @@
 
     .footer {
         flex-direction: row;
+        height: 114px;
+        gap:7px;
+    }
+
+    .footer h3 {
+        position: absolute;
+        left: 87%;
+    }
+
+    .footer a {
+        align-items: flex-end;
+    }
+
+    .footer i {
+        padding-left: 4px;
     }
 }

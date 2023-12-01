@@ -1,4 +1,6 @@
+@charset "UTF-8";
 /* base */
+/* Styles généraux */
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -13,6 +15,7 @@ body {
   padding-bottom: 16px;
 }
 
+/* Reset */
 *,
 ::before,
 ::after {
@@ -82,6 +85,18 @@ header .logo {
 @media screen and (min-width: 1024px) {
   .footer {
     flex-direction: row;
+    height: 114px;
+    gap: 7px;
+  }
+  .footer h3 {
+    position: absolute;
+    left: 87%;
+  }
+  .footer a {
+    align-items: flex-end;
+  }
+  .footer i {
+    padding-left: 4px;
   }
 }
 /* pages */
@@ -153,27 +168,6 @@ header .logo {
     padding-bottom: 25px;
   }
 }
-.btn-purple {
-  display: block;
-  width: 218px;
-  height: 50px;
-  border-radius: 25px;
-  background: linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
-  border: none;
-  box-shadow: 0px 0px 10px 0px #b4b4b4;
-  color: #FFFFFF;
-  font-weight: 500;
-  text-align: center;
-  margin-top: 30px;
-  font-size: 16px;
-  font-style: normal;
-}
-
-.btn-purple:hover {
-  opacity: 0.8;
-  transition: 500ms;
-}
-
 /* Section Functionning */
 .functionning {
   padding-top: 50px;
@@ -205,8 +199,9 @@ header .logo {
   background: var(--Background, #F6F6F6);
   border: none;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
-  padding-top: 28px;
-  padding-bottom: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button-functionning span {
@@ -236,10 +231,12 @@ header .logo {
   .section-title {
     padding-left: 0;
   }
+  .functionning {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
   .functionning-all {
     flex-direction: row;
-    margin-left: 9%;
-    margin-right: 9%;
   }
 }
 /* Section Restaurants */
@@ -257,14 +254,6 @@ header .logo {
   gap: 18px;
 }
 
-.cards {
-  width: 90%;
-  height: 251px;
-  border-radius: 15px;
-  background-color: #FFFFFF;
-  position: relative;
-}
-
 .badge {
   width: 80px;
   height: 29px;
@@ -276,6 +265,15 @@ header .logo {
   position: absolute;
   top: 13px;
   right: 10px;
+}
+
+/* Cards de la section Restaurants */
+.cards {
+  width: 90%;
+  height: 251px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  position: relative;
 }
 
 .cards img {
@@ -307,15 +305,12 @@ header .logo {
 
 .cards i {
   display: flex;
-  justify-content: flex-end;
   font-size: 26px;
-}
-
-.fa-heart {
   position: absolute;
-  left: 285px;
+  left: 88%;
 }
 
+/* Animations des icônes coeur */
 .heart-full {
   opacity: 0;
   color: transparent;
@@ -333,20 +328,43 @@ header .logo {
   .restaurants {
     margin-top: 50px;
     padding-top: 30px;
-    padding-left: 180px;
-    padding-right: 180px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 30px;
   }
   .restaurants-content {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-between;
+    gap: 50px;
   }
   .cards {
-    width: 490px;
+    width: 45%;
   }
 }
 /* components */
+/* Bouton "Explorer les restaurants" */
+.btn-purple {
+  display: block;
+  width: 218px;
+  height: 50px;
+  border-radius: 25px;
+  background: linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
+  border: none;
+  box-shadow: 0px 0px 10px 0px #b4b4b4;
+  color: #FFFFFF;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.btn-purple:hover {
+  opacity: 0.8;
+  transition: 500ms;
+}
+
 /* abstracts */
 
 /*# sourceMappingURL=style.css.map */
