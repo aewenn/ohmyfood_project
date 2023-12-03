@@ -5,6 +5,24 @@
     padding-bottom: 30px;
     position: absolute;
     top: 286px;
+
+    .fa-heart {
+        font-size: 22px;
+        position: absolute;
+        top: 39px;
+        right: 37px;
+    }
+
+    h1 {
+        color: #000;
+        font-family: Shrikhand;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-top: 32px;
+        padding-left: 17px;
+    }
 }
 
 .restaurant-img img {
@@ -12,22 +30,4 @@
     height: 275px;
     object-fit: cover;
     position: relative;
-}
-
-.menu-title {
-    color: #000;
-    font-family: Shrikhand;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-top: 32px;
-    padding-left: 17px;
-}
-
-.menu .fa-heart {
-    font-size: 22px;
-    position: absolute;
-    top: 39px;
-    right: 37px;
 }

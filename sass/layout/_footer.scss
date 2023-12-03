@@ -6,52 +6,51 @@
     padding: 22px;
     display: flex;
     flex-direction: column;
-}
 
-.footer h3 {
-    color: #FFFFFF;
-    font-family: "Shrikhand";
-}
+    h3 {
+        color: #FFFFFF;
+        font-family: "Shrikhand";
+    }
 
-.footer a {
-    color: white;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    display: flex;
-    gap: 15px;
-    line-height: 25px;
-}
+    a {
+        color: white;
+        font-family: "Roboto";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        display: flex;
+        gap: 15px;
+        line-height: 25px;
+    }
 
-.footer i {
-    font-size: 13px;
-    line-height: 25px;
-    width: 11px;
-    color: #FFFFFF;
+    i {
+        font-size: 13px;
+        line-height: 25px;
+        width: 11px;
+        color: #FFFFFF;
+    }
 }
 
 /* Footer - version responsive */
 
 @media screen and (min-width: 1024px) {
-
     .footer {
         flex-direction: row;
         justify-content: flex-end;
         gap: 7px;
-    }
 
-    .footer h3 {
-        order: 5;
-        margin-top: 35px;
-        margin-left: 100px;
-    }
+        h3 {
+            order: 5;
+            margin-top: 35px;
+            margin-left: 100px;
+        }
 
-    .footer a {
-        align-items: flex-end;
-    }
+        a {
+            align-items: flex-end;
+        }
 
-    .footer i {
-        padding-left: 4px;
+        i {
+            padding-left: 4px;
+        }
     }
 }

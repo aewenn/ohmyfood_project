@@ -57,12 +57,10 @@ header .logo {
   display: flex;
   flex-direction: column;
 }
-
 .footer h3 {
   color: #FFFFFF;
   font-family: "Shrikhand";
 }
-
 .footer a {
   color: white;
   font-family: "Roboto";
@@ -73,7 +71,6 @@ header .logo {
   gap: 15px;
   line-height: 25px;
 }
-
 .footer i {
   font-size: 13px;
   line-height: 25px;
@@ -112,12 +109,10 @@ header .logo {
   align-items: center;
   padding: 10px 0px;
 }
-
 .location i {
   color: #353535;
   font-size: 16px;
 }
-
 .location input {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -144,12 +139,10 @@ header .logo {
   flex-direction: column;
   align-items: center;
 }
-
 .discover h1 {
   text-align: center;
   padding-bottom: 15px;
 }
-
 .discover p {
   color: #353535;
   text-align: center;
@@ -205,7 +198,6 @@ header .logo {
   align-items: center;
   position: relative;
 }
-
 .button-functionning p {
   color: #000000;
   font-family: "Roboto", sans-serif;
@@ -281,7 +273,6 @@ header .logo {
   background-color: #FFFFFF;
   position: relative;
 }
-
 .cards img {
   width: 100%;
   height: 175px;
@@ -324,7 +315,6 @@ header .logo {
   background-clip: text;
   transition: 200ms ease-in-out;
 }
-
 .heart-full:hover {
   opacity: 1;
 }
@@ -356,15 +346,13 @@ header .logo {
   position: absolute;
   top: 286px;
 }
-
-.restaurant-img img {
-  width: 100%;
-  height: 275px;
-  object-fit: cover;
-  position: relative;
+.menu .fa-heart {
+  font-size: 22px;
+  position: absolute;
+  top: 39px;
+  right: 37px;
 }
-
-.menu-title {
+.menu h1 {
   color: #000;
   font-family: Shrikhand;
   font-size: 28px;
@@ -375,11 +363,11 @@ header .logo {
   padding-left: 17px;
 }
 
-.menu .fa-heart {
-  font-size: 22px;
-  position: absolute;
-  top: 39px;
-  right: 37px;
+.restaurant-img img {
+  width: 100%;
+  height: 275px;
+  object-fit: cover;
+  position: relative;
 }
 
 /* components */
@@ -399,7 +387,6 @@ header .logo {
   font-size: 16px;
   font-style: normal;
 }
-
 .btn-purple:hover {
   opacity: 0.8;
   transition: 500ms;
