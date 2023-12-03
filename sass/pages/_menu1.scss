@@ -5,29 +5,81 @@
     padding-bottom: 30px;
     position: absolute;
     top: 286px;
-
+  
     .fa-heart {
-        font-size: 22px;
-        position: absolute;
-        top: 39px;
-        right: 37px;
+      font-size: 22px;
+      position: absolute;
+      top: 39px;
+      right: 37px;
     }
-
-    h1 {
-        color: #000;
-        font-family: Shrikhand;
-        font-size: 28px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        padding-top: 32px;
-        padding-left: 17px;
-    }
+  
+  h1 {
+    color: #000;
+    font-family: Shrikhand;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 32px;
+    padding-left: 17px;
+  }
 }
-
-.restaurant-img img {
+  
+  .restaurant-img img {
     width: 100%;
     height: 275px;
     object-fit: cover;
     position: relative;
-}
+  }
+  
+  h2 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-left: 13px;
+    margin-top: 40px;
+  }
+  
+  .menus-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    .cards {
+      border-radius: 15px;
+      background: #FFF;
+      box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+      width: 93%;
+      height: 72px;
+      margin-top: 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .cards-title {
+      color: #000;
+      font-family: Roboto;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      padding-left: 15px;
+    }
+  
+    .cards p {
+      color: #000;
+      font-family: Roboto;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      padding-left: 15px;
+    }
+  }
+  
