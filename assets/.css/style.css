@@ -70,6 +70,7 @@ header .fa-arrow-left {
 .footer h5 {
   color: #FFFFFF;
   font-family: "Shrikhand";
+  font-weight: 100;
   font-size: 18px;
 }
 .footer a {
@@ -94,10 +95,12 @@ header .fa-arrow-left {
     flex-direction: row;
     justify-content: flex-end;
     gap: 7px;
+    padding-bottom: 25px;
+    padding-right: 70px;
   }
-  .footer h4 {
+  .footer h5 {
     order: 5;
-    margin-top: 35px;
+    margin-top: 40px;
     margin-left: 100px;
   }
   .footer a {
@@ -379,12 +382,6 @@ header .fa-arrow-left {
   padding-left: 17px;
 }
 
-/* Menu - version responsive */
-@media screen and (min-width: 1024px) {
-  .menu {
-    width: 80%;
-  }
-}
 .h2-menu {
   color: #000;
   font-size: 16px;
@@ -442,6 +439,34 @@ header .fa-arrow-left {
   color: #353535;
 }
 
+/* Menu - version responsive */
+@media screen and (min-width: 1024px) {
+  .restaurant-img img {
+    height: 383px;
+  }
+  .menu {
+    width: 73%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -40px;
+  }
+  .menu .fa-heart {
+    top: 70px;
+  }
+  .menu h1 {
+    padding-top: 61px;
+    display: flex;
+    justify-content: center;
+  }
+  .menus-section {
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .menus-section .cards-price {
+    left: 93%;
+  }
+}
 /* components */
 /* Bouton "Explorer les restaurants" */
 .btn-purple {

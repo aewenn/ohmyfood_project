@@ -33,16 +33,6 @@
   }
 }
 
-
-/* Menu - version responsive */
-
-@media screen and (min-width: 1024px) {
-
-  .menu {
-    width: 80%;
-  }
-}
-
 .h2-menu {
   color: $text-black;
   font-size: 16px;
@@ -101,5 +91,41 @@
     font-size: 15px;
     font-weight: 700;
     color: $dark-grey;
+  }
+}
+
+/* Menu - version responsive */
+
+@media screen and (min-width: 1024px) {
+
+  .restaurant-img img {
+    height: 383px;
+  }
+
+  .menu {
+    width: 73%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -40px;
+
+    .fa-heart {
+      top: 70px;
+    }
+
+    h1 {
+      padding-top: 61px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .menus-section {
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+
+    .cards-price {
+      left: 93%;
+    }
   }
 }
