@@ -66,9 +66,10 @@ header .fa-arrow-left {
   display: flex;
   flex-direction: column;
 }
-.footer h3 {
+.footer h5 {
   color: #FFFFFF;
   font-family: "Shrikhand";
+  font-size: 18px;
 }
 .footer a {
   color: #FFFFFF;
@@ -93,7 +94,7 @@ header .fa-arrow-left {
     justify-content: flex-end;
     gap: 7px;
   }
-  .footer h3 {
+  .footer h4 {
     order: 5;
     margin-top: 35px;
     margin-left: 100px;
@@ -260,15 +261,14 @@ header .fa-arrow-left {
   align-items: center;
   position: relative;
 }
-.button-functionning p {
+.button-functionning span {
   color: #000;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
 }
-
-.number {
+.button-functionning .number {
   width: 24px;
   height: 24px;
   background-color: #9356DC;
@@ -399,8 +399,7 @@ header .fa-arrow-left {
   flex-direction: column;
   align-items: center;
 }
-
-.cards {
+.menus-section .cards {
   border-radius: 15px;
   background: #FFFFFF;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
@@ -411,8 +410,7 @@ header .fa-arrow-left {
   flex-direction: column;
   justify-content: center;
 }
-
-.cards-title {
+.menus-section .cards-title {
   color: #000;
   font-size: 17px;
   font-style: normal;
@@ -421,8 +419,7 @@ header .fa-arrow-left {
   padding-left: 15px;
   padding-bottom: 5px;
 }
-
-.cards p {
+.menus-section .cards p {
   color: #000;
   font-size: 15px;
   font-style: normal;
@@ -430,8 +427,7 @@ header .fa-arrow-left {
   line-height: normal;
   padding-left: 15px;
 }
-
-.cards-price {
+.menus-section .cards-price {
   position: absolute;
   top: 56%;
   left: 88%;
@@ -451,8 +447,6 @@ header .fa-arrow-left {
   border: none;
   box-shadow: 0px 0px 10px 0px #b4b4b4;
   margin-top: 30px;
-}
-.btn-purple a {
   color: #FFFFFF;
   font-weight: 500;
   text-align: center;

@@ -9,9 +9,10 @@
     display: flex;
     flex-direction: column;
 
-    h3 {
+    h5 {
         color: $text-white;
         font-family: "Shrikhand";
+        font-size: 18px;
     }
 
     a {
@@ -40,7 +41,7 @@
         justify-content: flex-end;
         gap: 7px;
 
-        h3 {
+        h4 {
             order: 5;
             margin-top: 35px;
             margin-left: 100px;

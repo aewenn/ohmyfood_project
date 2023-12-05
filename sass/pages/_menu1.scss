@@ -53,44 +53,44 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
 
-.cards {
-  border-radius: 15px;
-  background: $text-white;
-  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
-  width: 93%;
-  height: 72px;
-  margin-top: 12px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+  .cards {
+    border-radius: 15px;
+    background: $text-white;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+    width: 93%;
+    height: 72px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-.cards-title {
-  color: $text-black;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  padding-left: 15px;
-  padding-bottom:5px;
-}
+  .cards-title {
+    color: $text-black;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 15px;
+    padding-bottom: 5px;
+  }
 
-.cards p {
-  color: $text-black;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  padding-left: 15px;
-}
+  .cards p {
+    color: $text-black;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-left: 15px;
+  }
 
-.cards-price {
-  position: absolute;
-  top: 56%;
-  left: 88%;
-  font-size: 15px;
-  font-weight: 700;
-  color: $dark-grey;
+  .cards-price {
+    position: absolute;
+    top: 56%;
+    left: 88%;
+    font-size: 15px;
+    font-weight: 700;
+    color: $dark-grey;
+  }
 }
