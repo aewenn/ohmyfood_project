@@ -1,20 +1,21 @@
 /* Footer */
 
+@import "../abstracts/variables";
+
 .footer {
     width: 100%;
-    background-color: #353535;
+    background-color: $dark-grey;
     padding: 22px;
     display: flex;
     flex-direction: column;
 
     h3 {
-        color: #FFFFFF;
+        color: $text-white;
         font-family: "Shrikhand";
     }
 
     a {
-        color: white;
-        font-family: "Roboto";
+        color: $text-white;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -27,7 +28,7 @@
         font-size: 13px;
         line-height: 25px;
         width: 11px;
-        color: #FFFFFF;
+        color: $text-white;
     }
 }
 

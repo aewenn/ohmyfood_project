@@ -1,5 +1,7 @@
 /* Bouton "Explorer les restaurants" */
 
+@import "../abstracts/variables";
+
 .btn-purple {
   display: block;
   width: 218px;
@@ -11,7 +13,7 @@
   margin-top: 30px;
 
   a {
-    color:#FFFFFF;
+    color: $text-white;
     font-weight: 500;
     text-align: center;
     font-size: 16px;

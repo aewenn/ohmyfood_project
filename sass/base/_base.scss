@@ -1,12 +1,13 @@
 /* Styles généraux */
 
+@import "../abstracts/variables";
+
 body {
     font-family: "Roboto", sans-serif;
 }
 
 .section-title {
-    color: #000;
-    font-family: Roboto;
+    color: $text-black;
     font-size: 24px;
     font-weight: 700;
     text-align: start;
