@@ -1,20 +1,20 @@
 @import "../abstracts/variables";
 
 .menu {
-    width: 100%;
-    background-color: $background-grey2;
-    border-radius: 40px 40px 0px 0px;
-    padding-bottom: 30px;
+  width: 100%;
+  background-color: $background-grey2;
+  border-radius: 40px 40px 0px 0px;
+  padding-bottom: 30px;
+  position: absolute;
+  top: 286px;
+
+  .fa-heart {
+    font-size: 22px;
     position: absolute;
-    top: 286px;
-  
-    .fa-heart {
-      font-size: 22px;
-      position: absolute;
-      top: 39px;
-      right: 37px;
-    }
-  
+    top: 39px;
+    right: 37px;
+  }
+
   h1 {
     color: $text-black;
     font-family: "Shrikhand";
@@ -26,59 +26,71 @@
     padding-left: 17px;
   }
 }
-  
-  .restaurant-img img {
-    width: 100%;
-    height: 275px;
-    object-fit: cover;
-    position: relative;
-  }
-  
-  .h2-menu {
-    color: $text-black;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    text-transform: uppercase;
-    padding-left: 13px;
-    margin-top: 40px;
-  }
-  
-  .menus-section {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  
-    .cards {
-      border-radius: 15px;
-      background: $text-white;
-      box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
-      width: 93%;
-      height: 72px;
-      margin-top: 12px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-  
-    .cards-title {
-      color: $text-black;
-      font-size: 20px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-      padding-left: 15px;
-    }
-  
-    .cards p {
-      color: $text-black;
-      font-size: 17px;
-      font-style: normal;
-      font-weight: 300;
-      line-height: normal;
-      padding-left: 15px;
-    }
-  }
-  
+
+.restaurant-img img {
+  width: 100%;
+  height: 275px;
+  object-fit: cover;
+  position: relative;
+}
+
+.h2-menu {
+  color: $text-black;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-left: 13px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid $tertiary-color;
+  width: 40px;
+}
+
+.menus-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  border-radius: 15px;
+  background: $text-white;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+  width: 93%;
+  height: 72px;
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cards-title {
+  color: $text-black;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-left: 15px;
+  padding-bottom:5px;
+}
+
+.cards p {
+  color: $text-black;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-left: 15px;
+}
+
+.cards-price {
+  position: absolute;
+  top: 56%;
+  left: 88%;
+  font-size: 15px;
+  font-weight: 700;
+  color: $dark-grey;
+}
