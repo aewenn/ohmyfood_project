@@ -146,12 +146,14 @@
   }
 
   .functionning {
-    padding-left: 15%;
-    padding-right: 15%;
+    margin-left: 14%;
+    margin-right: 13%;
+
   }
 
   .functionning-all {
     flex-direction: row;
+    margin-left:10px;
   }
 }
 
@@ -178,7 +180,8 @@
   color: transparent;
   background-image: linear-gradient(to top, $secondary-color, $primary-color);
   background-clip: text;
-  transition: 200ms ease-in-out;
+  -webkit-background-clip: text;
+  transition: 400ms ease-in-out;
 
   &:hover {
     opacity: 1;
@@ -198,8 +201,8 @@
   .restaurants {
     margin-top: 50px;
     padding-top: 30px;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 14%;
+    padding-right: 13%;
     padding-bottom: 30px;
   }
 

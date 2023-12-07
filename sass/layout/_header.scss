@@ -16,11 +16,10 @@ header {
     }
 
     .fa-arrow-left {
-        color: $text-black;
-        width: 30px;
-        height: 30px;
-        padding-top: 14px;
-        padding-left: 17px;
+        color: $dark-grey;
+        position: absolute;
+        top:22px;
+        left:17px;
     }
 }
 
@@ -29,5 +28,9 @@ header {
 @media screen and (min-width: 1024px) {
     header {
         height: 96px;
+
+        .fa-arrow-left {
+            top:40px;
+        }
     }
 }
