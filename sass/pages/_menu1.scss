@@ -94,6 +94,13 @@
   }
 }
 
+.command {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 /* Menu - version responsive */
 
 @media screen and (min-width: 1024px) {
@@ -117,6 +124,10 @@
       display: flex;
       justify-content: center;
     }
+  }
+
+  .h2-menu {
+    margin-left:20%;
   }
 
   .menus-section {

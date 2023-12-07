@@ -439,6 +439,13 @@ header .fa-arrow-left {
   color: #353535;
 }
 
+.command {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 /* Menu - version responsive */
 @media screen and (min-width: 1024px) {
   .restaurant-img img {
@@ -457,6 +464,9 @@ header .fa-arrow-left {
     padding-top: 61px;
     display: flex;
     justify-content: center;
+  }
+  .h2-menu {
+    margin-left: 20%;
   }
   .menus-section {
     width: 65%;
@@ -487,6 +497,10 @@ header .fa-arrow-left {
 .btn-purple:hover {
   opacity: 0.8;
   transition: 500ms;
+}
+
+.btn-command {
+  width: 186px;
 }
 
 /* abstracts */
