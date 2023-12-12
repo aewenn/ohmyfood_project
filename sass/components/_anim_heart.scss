@@ -1,0 +1,14 @@
+/* Animations des icônes coeurs */
+
+.heart-full {
+    opacity: 0;
+    color: transparent;
+    background-image: linear-gradient(to top, $secondary-color, $primary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: 400ms ease-in-out;
+
+    &:hover {
+        opacity: 1;
+    }
+}

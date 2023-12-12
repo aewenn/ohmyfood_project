@@ -25,24 +25,25 @@
     color: $text-black;
     font-family: "Roboto", sans-serif;
     font-style: normal;
-}
 
-.cards-title {
-    font-size: 18px;
-    font-weight: 700;
-}
+    .title {
+        font-size: 18px;
+        font-weight: 700;
+    }
 
-.cards-texts p {
-    font-size: 17px;
-    font-weight: 300;
-}
+    .p {
+        font-size: 17px;
+        font-weight: 300;
+        padding-left: 0;
+    }
 
-.cards i {
-    display: flex;
-    font-size: 22px;
-    position: absolute;
-    left: 89%;
-    top:77%;
+    i {
+        display: flex;
+        font-size: 22px;
+        position: absolute;
+        left: 89%;
+        top: 77%;
+    }
 }
 
 .badge {
@@ -56,4 +57,10 @@
     position: absolute;
     top: 13px;
     right: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+    .cards {
+        width: 45%;
+    }
 }

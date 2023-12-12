@@ -1,0 +1,45 @@
+/* Animations des menus */
+
+@import "../abstracts/variables";
+
+.anim-entrees {
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.anim-plats {
+    animation: fadein2 4s;
+}
+
+@keyframes fadein2 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.anim-desserts {
+    animation: fadein3 6s;
+}
+
+@keyframes fadein3 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

@@ -173,27 +173,6 @@
   gap: 18px;
 }
 
-/* Animations des icônes coeurs */
-
-.heart-full {
-  opacity: 0;
-  color: transparent;
-  background-image: linear-gradient(to top, $secondary-color, $primary-color);
-  background-clip: text;
-  -webkit-background-clip: text;
-  transition: 400ms ease-in-out;
-
-  &:hover {
-    opacity: 1;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .cards {
-    width: 45%;
-  }
-}
-
 
 /* Section Restaurants - version responsive */
 
