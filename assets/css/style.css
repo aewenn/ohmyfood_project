@@ -41,6 +41,7 @@ header .logo {
   align-content: center;
   padding-top: 14px;
   padding-bottom: 13px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
 }
 header .fa-arrow-left {
   color: #353535;
@@ -434,7 +435,7 @@ header .fa-arrow-left {
   justify-content: space-between;
   flex: 1;
   align-items: center;
-  margin: right;
+  width: 280px;
 }
 
 .card-text {
@@ -447,12 +448,18 @@ header .fa-arrow-left {
   font-weight: 500;
   padding-left: 15px;
   padding-bottom: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .cards p {
   font-size: 15px;
   font-weight: 300;
   padding-left: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .cards-price {
@@ -466,7 +473,7 @@ header .fa-arrow-left {
 .fa-circle-check {
   color: #FFFFFF;
   position: relative;
-  top: 0;
+  top: 0px;
   left: 0px;
   right: 0px;
   bottom: 0px;
@@ -550,6 +557,7 @@ header .fa-arrow-left {
   align-items: center;
   z-index: 2;
   position: fixed;
+  display: none;
 }
 .loader-container .loader {
   width: 250px;

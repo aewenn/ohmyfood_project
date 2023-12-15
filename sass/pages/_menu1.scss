@@ -97,7 +97,6 @@
   }
 }
 
-
 /* Contenu des cards */
 
 .cards-content {
@@ -108,7 +107,7 @@
   justify-content: space-between;
   flex: 1;
   align-items: center;
-  margin: right;
+  width: 280px;
 }
 
 .card-text {
@@ -121,12 +120,18 @@
   font-weight: 500;
   padding-left: 15px;
   padding-bottom: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .cards p {
   font-size: 15px;
   font-weight: 300;
   padding-left: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .cards-price {
@@ -140,7 +145,7 @@
 .fa-circle-check {
   color: $text-white;
   position: relative;
-  top: 0;
+  top: 0px;
   left: 0px;
   right: 0px;
   bottom: 0px;
