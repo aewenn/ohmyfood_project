@@ -557,7 +557,7 @@ header .fa-arrow-left {
   align-items: center;
   z-index: 2;
   position: fixed;
-  display: none;
+  animation: hide 3s linear forwards;
 }
 .loader-container .loader {
   width: 250px;
@@ -597,6 +597,17 @@ header .fa-arrow-left {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+@keyframes hide {
+  0% {
+    visibility: visible;
+  }
+  99% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
   }
 }
 /* Animations des menus */
