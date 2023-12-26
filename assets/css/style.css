@@ -419,11 +419,14 @@ header .fa-arrow-left {
   padding: 30px;
   width: 0px;
   overflow: hidden;
-  transition: 350ms ease-in-out;
 }
 .menus-section .cards:hover .check-button .fa-circle-check {
   display: flex;
   color: #FFFFFF;
+}
+
+.check-button {
+  transition: 350ms ease-in-out;
 }
 
 /* Contenu des cards */
@@ -541,6 +544,7 @@ header .fa-arrow-left {
 }
 .btn-purple:hover {
   opacity: 0.8;
+  box-shadow: 0px 0px 11px 0px #353535;
 }
 
 .btn-command {

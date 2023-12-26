@@ -86,7 +86,6 @@
         padding: 30px;
         width: 0px;
         overflow: hidden;
-        transition: 350ms ease-in-out;
 
         .fa-circle-check {
           display: flex;
@@ -95,6 +94,10 @@
       }
     }
   }
+}
+
+.check-button {
+  transition: 350ms ease-in-out;
 }
 
 /* Contenu des cards */
